@@ -3,7 +3,7 @@ import { Rss } from "lucide-react";
 import { Link } from "react-router";
 import { signup } from "../lib/api.js";
 import { useQuery, useQueryClient, useMutation } from "@tanstack/react-query";
-import useSignUp from "../hooks/useSignup.js";
+import useSignUp from "../hooks/useSignUp.js";
 import { useThemeStore } from "../store/useThemeStore.js";
 
 const SignupPage = () => {
